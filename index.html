@@ -14,24 +14,38 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
-  <head>
+  <head> <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
     <style>
+      #title {
+         font-family: "Pacifico", cursive;
+      }
+     
+      #intro {
+        font-family: "Nerko One", cursive;
+      }
       .ingredients-list {
         background-color: pink;
+        font-family: "Nerko One", cursive;
       }
       .food-name {
         background-color: mistyrose;
+        font-family: "Nerko One", cursive;
       }
       #meat-description {
         background-color: Gainsboro;
+        font-family: "Nerko One", cursive;
       }
       #pastelon-description {
         background-color: Gainsboro;
+        font-family: "Nerko One", cursive;
       }
       body {
         background-color: Gainsboro;
         width:80%;
         margin:auto
+          
       
       }
       img {
@@ -44,15 +58,16 @@ Select ONE Additional Feature to Add
       th,
       td {
         border: 1px solid;
+        
       }
     </style>
     <meta charset="utf-8" />
-    <title>Maya's cook book!🍜</title>
+    <title >Maya's cook book!🍜</title>
   </head>
   <body>
-    <h1 style="color: indianred">Maya's cook book!🍜</h1>
+    <h1 id="title" style="color: indianred" >Maya's cook book!🍜</h1>
 
-    <h3>
+    <h3 id="intro">
       Hi! Food is one of the most important things in my life because it
       connects me to my culture and ancestry. I'm mainly a Dominican-Japanese
       American, but I have other ethnicities as well. I grew up in a dominican
@@ -121,7 +136,7 @@ Select ONE Additional Feature to Add
 
     <h3 class="ingredients-list">⭐ingredients:</h3>
 
-    <ul>
+    <ul class="ingredients-list">
       <li>21 lbs cubed steak</li>
       <li>1 onion</li>
       <li>1/2 green pepper sliced</li>
@@ -135,6 +150,7 @@ Select ONE Additional Feature to Add
       <li>black pepper to taste/chilli oil</li>
       <li>1 tbs white vinigar</li>
       <br />
+    </ul>
       <em>serve with dominican rice and beans</em>
       
        <h2 id="recipie-2" class="food-name">
@@ -143,7 +159,6 @@ Select ONE Additional Feature to Add
     </h2>
 
        
-      </h2>
       <p id="pastelon-description">
         I love lasagnia, but this is hands down the best way to make it. Instead
         of layering startchy thick pasta, Pastelon is layered with sweet mashed
@@ -152,6 +167,7 @@ Select ONE Additional Feature to Add
         to make, and it's a family favorite.
       </p>
       <h3 class="ingredients-list">⭐ingredients</h3>
+    <ul class="ingredients-list">
       <li>1lbs ground beef</li>
       <li>1 chopped red onion</li>
       <li>1 tsp of mashed garlic</li>
@@ -170,6 +186,7 @@ Select ONE Additional Feature to Add
       <li>3 tbs whipping cream</li>
       <li>1 cup shredded cheddar cheese</li>
       <li>1 cup shredded mozzarella cheese</li>
+    </ul>
       <br />
       <em>assemble in oven dish and bake at 350 deg until cheese is melted</em>
 
@@ -182,6 +199,7 @@ Select ONE Additional Feature to Add
         />
       </h2>
       <h3 class="ingredients-list">⭐ingredients:</h3>
+    <ul class="ingredients-list"> 
       <li>fresh okra</li>
       <li>green cubanelle pepper</li>
       <li>red onion</li>
@@ -192,6 +210,7 @@ Select ONE Additional Feature to Add
       <li>adobo</li>
       <li>tomatoe sauce</li>
       <li>coriander</li>
+</ul>
       <br />
       <em
         >boil with <strong>lots of water</strong> until soft, and serve with
@@ -203,27 +222,30 @@ Select ONE Additional Feature to Add
       <img src="https://fullofplants.com/wp-content/uploads/2024/03/vegan-rabokki-tteokbokki-with-ramen-noodles-thumb.jpg" width="400" />
     </h2>
 
-    <p id="meat-description">
-      
+    <p id="">
+      My all time fav thing to eat when I want a late night snack or if i'm hanging out with my friends. It's chewey, savory, spicy, and sweet, all in one! yum yum!
     </p>
 
     <h3 class="ingredients-list">⭐ingredients:</h3>
 
-    <ul>
-      <li>21 lbs cubed steak</li>
-      <li>1 onion</li>
-      <li>1/2 green pepper sliced</li>
-      <li>3-4 tbs sofrito</li>
-      <li>1 1/2 tbs chicken bullion/ adobo</li>
-      <li>1/2 tablespoon oregano</li>
-      <li>1 tbs sazon</li>
-      <li>1/2 tbs sugar</li>
-      <li>1 tbs tomato paste</li>
-      <li>1 lime</li>
-      <li>black pepper to taste/chilli oil</li>
-      <li>1 tbs white vinigar</li>
+    <ul class="ingredients-list">
+      <li>1 instant noodle pack</li>
+      <li>fresh korean rice cakes or if frozen, soak in warm water for 10 min</li>
+      <li>2 sheets of chopped korean fish cakes</li>
+      <li>chopped cabbage leaves</li>
+      <li>1/2 sliced onion</li>
+      <li>2 hard boiled eggs cut in halves</li>
+      <li>dried seaweed</li>
+      <li>3 cups boiled water</li>
+      <li>4 Tbsp gochujang </li>
+      <li>1 and 1/2 Tbsp sugar</li>
+      <li>1 tsp minced garlic</li>
+      <li>1 tsp gochugaru (korean chilli flakes)</li>
+      <li>1 stalk of chopped green onion</li>
+      <li>seseme seeds</li>
+    </ul>
       <br />
-      <em>serve with dominican rice and beans</em>
+      
       
         <h2 id="recipie-5" class="food-name">
       onigiri / japanese rice ball <br />
@@ -231,31 +253,21 @@ Select ONE Additional Feature to Add
     </h2>
 
     <p id="">
-      There really is nothing like a sweet, savory, and tender piece of meet
-      that just bursts with flavor, and hits just right. This way of cooking
-      meat has long been my favorite way to cook and season to get that perfect
-      flavor and tenderness.
+     Literally the easiest thing to make but it hits so hard when you're hungry. I like filling it with spicy chicken, umeboshi(pickled plum), or tuna mayo.
     </p>
 
     <h3 class="ingredients-list">⭐ingredients:</h3>
 
-    <ul>
-      <li>21 lbs cubed steak</li>
-      <li>1 onion</li>
-      <li>1/2 green pepper sliced</li>
-      <li>3-4 tbs sofrito</li>
-      <li>1 1/2 tbs chicken bullion/ adobo</li>
-      <li>1/2 tablespoon oregano</li>
-      <li>1 tbs sazon</li>
-      <li>1/2 tbs sugar</li>
-      <li>1 tbs tomato paste</li>
-      <li>1 lime</li>
-      <li>black pepper to taste/chilli oil</li>
-      <li>1 tbs white vinigar</li>
-      <br />
-      <em>serve with dominican rice and beans</em>
-      
+    <ul class="ingredients-list">
+      <li>sticky rice</li>
+      <li>furikake or Manjo Aji Mirin(sweet rice seasoning)</li>
+      <li>seaweed</li>
+      <li>filling of choice</li>
     </ul>
+      <br />
+      
+      
+    
   </body>
 </html>
 
